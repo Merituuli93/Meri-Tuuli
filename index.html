@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oma Nimi</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+  header { background: #333; color: white; padding: 3rem 2rem; text-align: center; }
+  nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+  section { padding: 4rem 2rem; }
+  .projects, .blog { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; }
+  .card { border: 1px solid #ccc; padding: 1rem; flex: 1 1 250px; max-width: 300px; border-radius: 8px; background: #f9f9f9; }
+  .card img { max-width: 100%; border-radius: 5px; }
+  footer { background: #333; color: white; text-align: center; padding: 2rem; }
+  h1, h2, h3 { margin-top: 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Oma Nimi</h1>
+  <p>Tervetuloa sivuilleni!</p>
+  <nav>
+    <a href="#projects">Projektit</a>
+    <a href="#blog">Blogi</a>
+    <a href="#contact">Yhteys</a>
+  </nav>
+</header>
+
+<section id="projects">
+  <h2>Projektit / Kilpailut</h2>
+  <div class="projects">
+    <div class="card">
+      <img src="images/projekti1.jpg" alt="Projekti 1">
+      <h3>Projekti 1</h3>
+      <p>Lyhyt kuvaus projektista tai kilpailusta.</p>
+    </div>
+    <div class="card">
+      <img src="images/projekti2.jpg" alt="Projekti 2">
+      <h3>Projekti 2</h3>
+      <p>Lyhyt kuvaus projektista tai kilpailusta.</p>
+    </div>
+  </div>
+</section>
+
+<section id="blog">
+  <h2>Blogi / Uutiset</h2>
+  <div class="blog">
+    <div class="card">
+      <h3>Blogipostaus 1</h3>
+      <p>Pieni tiivistelmä postauksesta. Lisää linkki, jos haluat lukea koko tekstin.</p>
+    </div>
+    <div class="card">
+      <h3>Blogipostaus 2</h3>
+      <p>Pieni tiivistelmä postauksesta. Lisää linkki, jos haluat lukea koko tekstin.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Yhteystiedot</h2>
+  <p>Sähköposti: <a href="mailto:sinun.sahkoposti@esimerkki.fi">sinun.sahkoposti@esimerkki.fi</a></p>
+  <p>Voit myös lisätä lomakkeen myöhemmin tai linkin some-kanaviin.</p>
+</section>
+
+<footer>
+  <p>© 2025 Oma Nimi</p>
+</footer>
+
+</body>
+</html>
